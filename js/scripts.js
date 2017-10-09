@@ -2,10 +2,15 @@ var withbutton = document.getElementsByClassName('button');
 
 console.log(withbutton);
 
-var dlugosc = withbutton2.length
+var dlugosc = withbutton2.length;
 
-var withbutton2 = k
+var withbutton2 = k;
 
 for ( var k = 0 ; k < 5 ; k++) {
   console.log(function raiseAlarm() + k);
+
+  function raiseAlarm() {
+    alert(withbutton);
 }
+
+var delayedAlert = setTimeout(raiseAlarm, 1000);
