@@ -1,16 +1,8 @@
 var withbutton = document.getElementsByClassName('button');
+var dlugosc = withbutton.length;
 
-console.log(withbutton);
+var withbutton = k;
 
-var dlugosc = withbutton2.length;
-
-var withbutton2 = k;
-
-for ( var k = 0 ; k < 5 ; k++) {
-  console.log(function raiseAlarm() + k);
-
-  function raiseAlarm() {
-    alert(withbutton);
+for ( var k = 0 ; k < dlugosc ; k++) {
+  console.log(text.toLowerCase().indexOf(button));
 }
-
-var delayedAlert = setTimeout(raiseAlarm, 1000);
